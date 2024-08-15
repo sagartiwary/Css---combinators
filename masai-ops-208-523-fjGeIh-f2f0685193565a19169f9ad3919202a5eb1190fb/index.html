@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-101 C1</title>
+  <style>
+    /* Write all necessery css here  */
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    #main {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      overflow-y: hidden;
+
+    }
+
+    img[src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/background_517708.png"] {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #content>h1 {
+      text-align: center;
+    }
+
+    #content p {
+      line-height: 25px;
+      text-align: center;
+    }
+
+    #products {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+    }
+
+    #products>div {
+      flex: 1 1 23%;
+      box-sizing: border-box;
+      margin: 0.5%;
+      text-align: center;
+      /* border: 1px solid red */
+    }
+
+    #products img {
+      /* width: 200px; */
+      width: 100%;
+      height: auto;
+      /* margin: auto; */
+    }
+
+    #products>div>h3,
+    #products>div>p {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <!-- Here you should put the image -->
+    <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/background_517708.png"
+      alt="error_img">
+    <div id="content">
+      <h1>Services</h1>
+      <p>
+        Why step out when you can get everything delivered home with the tap
+        of a button? Bangalore’s favourite delivery app gets you Food,
+        Grocery, Medicine, Pet Supplies, Fruits & Vegetables, Meat & Fish,
+        Health & Wellness, Gifts and Send Packages from one end of the city to
+        the other. From your local kirana stores to your favourite brands,
+        grocery shopping to your forgotten charger, we are always on the move
+        for you. Why worry about your chores, when you can get it all Dun!
+      </p>
+      <div id="products">
+        <!-- Here create 4 child divs and each child div should have box class -->
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/product1_197594.png"
+            alt="img1">
+          <h3>Sagar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quos assumenda accusamus quibusdam
+            consectetur odio obcaecati! Quo magnam animi cumque maiores facere libero at, ipsum quod nobis? Asperiores,
+            adipisci?</p>
+        </div>
+
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/product2_241308.png"
+            alt="img2">
+          <h3>Sagar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quos assumenda accusamus quibusdam
+            consectetur
+            odio obcaecati! Quo magnam animi cumque maiores facere libero at, ipsum quod nobis? Asperiores, adipisci?
+          </p>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/product3_857374.png"
+            alt="img3">
+          <h3>Sagar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quos assumenda accusamus quibusdam
+            consectetur
+            odio obcaecati! Quo magnam animi cumque maiores facere libero at, ipsum quod nobis? Asperiores, adipisci?
+          </p>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-08/product4_514867.png"
+            alt="img4">
+          <h3>Sagar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quos assumenda accusamus quibusdam
+            consectetur
+            odio obcaecati! Quo magnam animi cumque maiores facere libero at, ipsum quod nobis? Asperiores, adipisci?
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
